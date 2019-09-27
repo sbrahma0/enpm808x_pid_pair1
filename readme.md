@@ -3,6 +3,11 @@
 [![Coverage Status](https://coveralls.io/repos/github/sbrahma0/enpm808x_pid_pair1/badge.svg?branch=master)](https://coveralls.io/github/sbrahma0/enpm808x_pid_pair1?branch=master)
 ---
 
+## Part1
+- Driver - Sayan Brahma
+- Navigator - Akwasi A Obeng
+
+
 ## Overview
 
 Simple starter C++ project with:
