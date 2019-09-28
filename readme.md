@@ -7,7 +7,7 @@
 - Driver - Sayan Brahma
 - Navigator - Akwasi A Obeng
 
-## Part2
+## Part2 (switched role)
 - Driver - Achal Pragneshkumar Vyas
 - Navigator - Vamshi Kumar Bogoju
 
