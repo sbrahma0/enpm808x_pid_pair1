@@ -7,6 +7,9 @@
 - Driver - Sayan Brahma
 - Navigator - Akwasi A Obeng
 
+## Part2
+- Driver - Achal Pragneshkumar Vyas
+- Navigator - Vamshi Kumar Bogoju
 
 ## Overview
 
