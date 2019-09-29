@@ -1,9 +1,9 @@
 /*!
- *  \brief 		File including the class definition for stub implementation
- *  \file  		Header file - pid_controller
- *  \author 	part1: Sayan Brahma(driver) Akwashi a Obeng(navigator)
- *  \copyright  Sayan Brahma and Akwashi a Obeng
- *  \
+ *  @author 	part1: Sayan Brahma(driver) Akwashi a Obeng(navigator)
+ *  @file  	Header file - pid_controller
+ *  @brief 	File including the class definition for stub implementation
+ *  @copyright  Sayan Brahma and Akwashi a Obeng- part1
+ *
  */
 
 
