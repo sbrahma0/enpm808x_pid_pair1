@@ -1,18 +1,18 @@
 /*!
- *  \brief 		This is the test file in the test folder which contains the test cases
- *  \file  		Test file - test.cpp
- *  \author 	part1: Sayan Brahma(driver) Akwashi a Obeng(navigator)
- *  \copyright  Sayan Brahma and Akwashi a Obeng
- *  \
+ *  @author 	part1: Sayan Brahma(driver) Akwashi a Obeng(navigator)
+ *  @file  		Test file - test.cpp
+ *  @brief 		This is the test file in the test folder which contains the test cases
+ *  @copyright  Sayan Brahma and Akwashi a Obeng- part1
+ *
  */
 
 #include <gtest/gtest.h>
 #include "../include/pid_controller.hpp"
 
-pidController ob(1.0, 0.0, 0.0, 1.0);
-pidController ob1(0.0, 0.0, 0.0, 1.0);
-pidController ob2(-1.0, -1.0, -1.0, 1.0);
-pidController ob3(1.0, 1.0, 1.0, -1.0);
+pidController ob(1.0, 0.0, 0.0, 1.0);  // object creation
+pidController ob1(0.0, 0.0, 0.0, 1.0);  // object creation
+pidController ob2(-1.0, -1.0, -1.0, 1.0);  // object creation
+pidController ob3(1.0, 1.0, 1.0, -1.0);  // object creation
 
 
 
@@ -46,4 +46,5 @@ TEST(negativetest, should_pass) {
 TEST(dttest, should_pass) {
   EXPECT_DOUBLE_EQ(ob3.compute(12, 10), 0.0);
 }
+
 
