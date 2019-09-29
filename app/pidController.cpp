@@ -1,6 +1,6 @@
 /*!
  *  @copyright  Achal Pragneshkumar Vyas and Vamshi Kumar Bogoju
- *  @file   Header file - pid_controller
+ *  @file   Header file - pidController
  *  @brief File including the class definition and stub
  *  @author part2: Achal Pragneshkumar Vyas(driver) Vamshi Kumar Bogoju(navigator)
  *
