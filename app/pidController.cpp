@@ -1,10 +1,9 @@
 /*!
- *  \brief File including the class definition and stub
- *  \file   Header file - pid_controller
- *  \author part1: Vamshi Kumar Bogoju(driver) Achal Pragneshkumar Vyas(navigator)
- *  \author part2: Achal Pragneshkumar Vyas(driver) Vamshi Kumar Bogoju(navigator)
- *  \copyright  Achal Pragneshkumar Vyas and Vamshi Kumar Bogoju
- *  \
+ *  @copyright  Achal Pragneshkumar Vyas and Vamshi Kumar Bogoju
+ *  @file   Header file - pid_controller
+ *  @brief File including the class definition and stub
+ *  @author part2: Achal Pragneshkumar Vyas(driver) Vamshi Kumar Bogoju(navigator)
+ *
  */
 
 #include <iostream>
@@ -23,7 +22,8 @@ pidController::pidController() {
  */
 pidController::pidController(double kpInput, double kiInput,
 double kdInput, double dtInput) {
-    kp = kpInput, ki = kiInput, kd = kdInput, dt = dtInput;  // User initialisation
+    kp = kpInput, ki = kiInput, kd = kdInput,
+dt = dtInput;  // User initialisation
 
     std::cout << "The user entered parameters are: kp = " << kp << " ki = "
 << ki << " kd = " << kd << " dt = " << dt << std::endl;
@@ -53,5 +53,6 @@ double pidController::compute(double setValue, double currentValue) {
  */
 pidController::~pidController() {
 }
+
 
 
