@@ -1,10 +1,9 @@
 /*!
- *  \brief File including the class definition and stub
- *  \file   Header file - pid_controller
- *  \author part1: Vamshi Kumar Bogoju(driver) Achal Pragneshkumar Vyas(navigator)
- *  \author part2: Achal Pragneshkumar Vyas(driver) Vamshi Kumar Bogoju(navigator)
- *  \copyright  Achal Pragneshkumar Vyas and Vamshi Kumar Bogoju
- *  \
+ *  @brief File including the class definition and stub
+ *  @file   Header file - main.cpp
+ *  @author part2: Achal Pragneshkumar Vyas(driver) Vamshi Kumar Bogoju(navigator)
+ *  @copyright  Achal Pragneshkumar Vyas and Vamshi Kumar Bogoju
+ *  
  */
 
 #include <iostream>
@@ -26,7 +25,9 @@ int main() {
 
 
     pidController pid(kp, ki, kd, dt);  // Object creation named pid
-    double nv = pid.compute(setValue, currentValue);  // new value from the function
-    std::cout << "The new value is- " << nv << std::endl;  // printing the new value
+    double nv = pid.compute(setValue, currentValue);
+    // new value from the function
+    std::cout << "The new value is- " << nv << std::endl;
+    // printing the new value
     return 0;
 }
