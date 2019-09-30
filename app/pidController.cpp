@@ -8,11 +8,7 @@
 
 #include <iostream>
 #include "../include/pid_controller.hpp"
-/**
- * @brief constructor definition for initializing the default values
- */
-pidController::pidController() {
-}
+
 /**
  * @brief constructor definition for initializing the user input values
  * @param kpInput user input of the kp parameter
